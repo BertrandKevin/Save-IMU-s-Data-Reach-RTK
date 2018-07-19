@@ -7,7 +7,8 @@
 4. Transfer this repository to the Reach:
   #### On Windows
     a. Open WinSCP (or a similar software)
-    b. Connect to the Reach RTK with its IP address
+    b. Connect to the Reach RTK with:
+       - The host name: the IP address of the Reach
        - Username: root
        - Default password: emlidreach
     c. Go to the repertory: /home/root/
@@ -24,7 +25,8 @@
   ### Automatic startup when the Reach is powered on
   ####  On Windows
     a. Open Putty (or a similar software)
-    b. Connect to the Reach RTK with its IP address
+    b. Connect to the Reach RTK with:
+       - The host name: the IP address of the Reach
        - Username: root
        - Default password: emlidreach
     c. Type these following commands: 
@@ -48,9 +50,10 @@
   **_For this method, the device that starts the program must be remain on and connected to the same network as the Reach. If one of these conditions is not respected, the program will end!_**
   #### On Windows
     a. Open Putty (or a similar software).
-    b. Connect to the Reach with its IP address 
-       - Username : root
-       - Default password : emlidreach
+    b. Connect to the Reach RTK with:
+       - The host name: the IP address of the Reach
+       - Username: root
+       - Default password: emlidreach
     c. Go to the repertory: cd /home/root/Save-IMU-s-Data-Reach-RTK-master/
     d. Type the command: sudo make
     e. Launch the program with: ./reach
