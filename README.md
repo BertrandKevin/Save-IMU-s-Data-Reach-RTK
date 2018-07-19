@@ -3,7 +3,8 @@
 ## Installation on the Reach RTK
 1. Connect the Reach RTK and your computer to the same Wifi.
 2. Download the repository "Save-IMU-s-Data-Reach-RTK".
-3. Transfer this repository to the Reach:
+3. Unzip the folder if it's not done yet.
+4. Transfer this repository to the Reach:
   #### On Windows
     a. Open WinSCP (or a similar software)
     b. Connect to the Reach RTK with its IP address
