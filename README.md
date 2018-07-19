@@ -35,6 +35,7 @@
        3. systemctl daemon-reload
        3. sudo update-rc.d imu-bash defaults
     d. Restart the Reach with: sudo reboot
+    e. Now every time that the reach is powered on, the program will automaticaly start
   ####  On Linux / macOS
     a. Open a new Terminal window
     b. Connect to the Reach with the command: ssh root@IpAddressOfTheReach. 
@@ -45,6 +46,7 @@
        3. systemctl daemon-reload
        3. sudo update-rc.d imu-bash defaults
     d. reatsrt the Reach with: sudo reboot
+    e. Now every time that the reach is powered on, the program will automaticaly start
 
   ### Manual startup with command line
   **_For this method, the device that starts the program must be remain on and connected to the same network as the Reach. If one of these conditions is not respected, the program will end!_**
