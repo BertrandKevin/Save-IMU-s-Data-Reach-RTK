@@ -42,4 +42,21 @@
        3. systemctl daemon-reload
        3. sudo update-rc.d imu-bash defaults
     d. reatsrt the Reach with: sudo reboot
-     
+
+  ### Manual startup with command line
+  **_For this method, the device that starts the program must be remain on and connected to the same network as the Reach. If one of these conditions is not respected, the program will end!_**
+  #### On Windows
+    a. Open Putty (or a similar software).
+    b. Connect to the Reach with its IP address 
+       - Username : root
+       - Default password : emlidreach
+    c. Go to the repertory: cd /home/root/Save-IMU-s-Data-Reach-RTK-master/
+    d. Type the command: sudo make
+    e. Launch the program with: ./reach
+  #### On Linux / macOS
+    a. Open the Terminal.
+    b. Connect to the Reach with the command: ssh root@IpAddressOfTheReach. 
+       - Default password : emlidreach
+    c. Go to the repertory: cd /home/root/Save-IMU-s-Data-Reach-RTK-master/
+    d. Type the command: sudo make
+    e. Launch the program with: ./reach
