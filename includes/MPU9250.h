@@ -1,5 +1,5 @@
 //
-//  MPU9250.hpp
+//  MPU9250.h
 //  Wifi-Client
 //
 //  Created by Kevin Bertrand on 17/07/18.
