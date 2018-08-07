@@ -1,5 +1,9 @@
 # Save IMU's Data from Reach RTK (local storage)
 
+## Software needed for Windows
+- WinSCP: [Download link](https://winscp.net/eng/download.php).
+- Putty: [Download link](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). You have to go to the "Alternative binary files" section and download "putty.exe (the SSH and Telnet client itself)".
+
 ## Installation on the Reach RTK
 1. Connect the Reach RTK and your computer to the same Wifi.
 2. Download the repository "Save-IMU-s-Data-Reach-RTK".
