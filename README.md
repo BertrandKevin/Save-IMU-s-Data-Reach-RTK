@@ -44,7 +44,7 @@
     a. Open a new Terminal window
     b. Connect to the Reach with the command: ssh root@IpAddressOfTheReach. 
        - Default password : emlidreach
-    c. Type these foloowing commands:
+    c. Type these following commands:
        1. sudo cp /home/root/Save-IMU-s-Data-Reach-RTK-master/imu-bash /etc/init.d/
        2. sudo chmod 0755 /etc/init.d/imu-bash
        3. systemctl daemon-reload
