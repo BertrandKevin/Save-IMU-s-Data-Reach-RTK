@@ -18,7 +18,14 @@ string dateFormatting(string dateRaw)
     dateRaw.erase(dateRaw.length()-1, 1);
     
     string day = "";
-    day += dateRaw[8];
+    if(dateRaw[8] == ' ')
+    {
+     	day += '0';
+    }
+    else
+    {
+     	day += dateRaw[8];
+    }
     day += dateRaw[9];
     
     string month = "";
