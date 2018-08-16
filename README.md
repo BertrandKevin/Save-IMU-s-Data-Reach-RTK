@@ -37,7 +37,7 @@
        1. sudo cp /home/root/Save-IMU-s-Data-Reach-RTK-master/imu-bash /etc/init.d/
        2. sudo chmod 0755 /etc/init.d/imu-bash
        3. systemctl daemon-reload
-       3. sudo update-rc.d imu-bash defaults
+       4. sudo update-rc.d imu-bash defaults
     d. Restart the Reach with: sudo reboot
     e. Now every time that the reach is powered on, the program will automaticaly start
   ####  On Linux / macOS
@@ -48,7 +48,7 @@
        1. sudo cp /home/root/Save-IMU-s-Data-Reach-RTK-master/imu-bash /etc/init.d/
        2. sudo chmod 0755 /etc/init.d/imu-bash
        3. systemctl daemon-reload
-       3. sudo update-rc.d imu-bash defaults
+       4. sudo update-rc.d imu-bash defaults
     d. reatsrt the Reach with: sudo reboot
     e. Now every time that the reach is powered on, the program will automaticaly start
 
