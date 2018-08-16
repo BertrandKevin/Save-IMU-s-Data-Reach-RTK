@@ -34,10 +34,12 @@
        - Username: root
        - Default password: emlidreach
     c. Type these following commands: 
-       1. sudo cp /home/root/Save-IMU-s-Data-Reach-RTK-master/imu-bash /etc/init.d/
-       2. sudo chmod 0755 /etc/init.d/imu-bash
-       3. systemctl daemon-reload
-       4. sudo update-rc.d imu-bash defaults
+       1. cd /home/root/Save-IMU-s-Data-Reach-RTK-master/
+       2. sudo make clean && make
+       3. sudo cp /home/root/Save-IMU-s-Data-Reach-RTK-master/imu-bash /etc/init.d/
+       4. sudo chmod 0755 /etc/init.d/imu-bash
+       5. systemctl daemon-reload
+       6. sudo update-rc.d imu-bash defaults
     d. Restart the Reach with: sudo reboot
     e. Now every time that the reach is powered on, the program will automaticaly start
   ####  On Linux / macOS
@@ -45,10 +47,12 @@
     b. Connect to the Reach with the command: ssh root@IpAddressOfTheReach. 
        - Default password : emlidreach
     c. Type these following commands:
-       1. sudo cp /home/root/Save-IMU-s-Data-Reach-RTK-master/imu-bash /etc/init.d/
-       2. sudo chmod 0755 /etc/init.d/imu-bash
-       3. systemctl daemon-reload
-       4. sudo update-rc.d imu-bash defaults
+       1. cd /home/root/Save-IMU-s-Data-Reach-RTK-master/
+       2. sudo make clean && make
+       3. sudo cp /home/root/Save-IMU-s-Data-Reach-RTK-master/imu-bash /etc/init.d/
+       4. sudo chmod 0755 /etc/init.d/imu-bash
+       5. systemctl daemon-reload
+       6. sudo update-rc.d imu-bash defaults
     d. reatsrt the Reach with: sudo reboot
     e. Now every time that the reach is powered on, the program will automaticaly start
 
