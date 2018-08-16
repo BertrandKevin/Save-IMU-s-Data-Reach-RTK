@@ -112,7 +112,7 @@ string searchPath()
     
     string dateFormated = dateFormatting(timeFile);
     
-    path = "/home/root/Save-Data/TXT-Files/Reach1_IMU_" + dateFormated;
+    path = "/home/root/Save-IMU-s-Data-Reach-RTK-master/TXT-Files/Reach_IMU_" + dateFormated;
     path += "h.txt";
     
     return path;
