@@ -3,7 +3,7 @@
 # le nom du service
 SERVICE_NAME= ./reach
 # le répertoire où se trouvent les exécutables du service
-SERVICE_DIRECTORY= /home/root/Save-Data/./reach
+SERVICE_DIRECTORY= /home/root/Save-IMU-s-Data-Reach-RTK-master/./reach
 # le nom du script de démarrage du service
 SERVICE_STARTUP_SCRIPT=startup.sh
 # le nom du script d'arrêt du service
