@@ -65,12 +65,12 @@
        - Username: root
        - Default password: emlidreach
     c. Go to the repertory: cd /home/root/Save-IMU-s-Data-Reach-RTK-master/
-    d. Type the command: sudo make
+    d. Type the command: sudo make clean && make
     e. Launch the program with: ./reach
   #### On Linux / macOS
     a. Open the Terminal.
     b. Connect to the Reach with the command: ssh root@IpAddressOfTheReach. 
        - Default password : emlidreach
     c. Go to the repertory: cd /home/root/Save-IMU-s-Data-Reach-RTK-master/
-    d. Type the command: sudo make
+    d. Type the command: sudo make clean && make
     e. Launch the program with: ./reach
