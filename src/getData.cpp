@@ -40,9 +40,9 @@ string getData(MPU9250 imu)
     string toSend = "";
     
     toSend += dt.erase(dt.length()-1, 1) + "\t";
-    toSend += "Acc: " + floatToString(ax) + "  " + floatToString(ay) + "  " + floatToString(az) + "\t";
-    toSend += "Gyr: " + floatToString(gz) + "  " + floatToString(gy) + "  " + floatToString(gz) + "\t";
-    toSend += "Mag: " + floatToString(mx) + "  " + floatToString(my) + "  " + floatToString(mz) + "\n";
+    toSend += "Acc (g): " + floatToString(ax) + "  " + floatToString(ay) + "  " + floatToString(az) + "\t";
+    toSend += "Gyr (°/s): " + floatToString(gz) + "  " + floatToString(gy) + "  " + floatToString(gz) + "\t";
+    toSend += "Mag (µT): " + floatToString(mx) + "  " + floatToString(my) + "  " + floatToString(mz) + "\n";
     
     return toSend;
 }
