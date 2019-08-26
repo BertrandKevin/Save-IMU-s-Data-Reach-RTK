@@ -34,10 +34,8 @@
     d. Copy the repository from your computer and paste it on the Reach
   #### On Linux / macOS
     a. Open a new Terminal window
-    b. Connect to the Reach with the command: ssh root@IpAddressOfTheReach. 
-       - Default password : emlidreach
-    c. Type: sudo scp /ThePathOfTheFolderOnYourComputer root@IpAddressOfTheReach:/home/root/
-    d. Then follow the steps by typping your password and the Reach's password
+    b. Type: sudo scp /ThePathOfTheFolderOnYourComputer root@IpAddressOfTheReach:/home/root/
+    c. Then follow the steps by typping your password and the Reach's password
 
 ## Start the program
   Two possibilities are available to start this program:
